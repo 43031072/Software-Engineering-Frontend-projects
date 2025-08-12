@@ -1,0 +1,113 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Wear Hats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="itemStyles.css">
+    <link rel="stylesheet" href="mediaStyles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-section">
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button> 
+                <ul class="nav-menu">
+                    <li><a href="site.html">Shop</a></li>
+                    <li><a href="t-shirts.html">T-Shirts</a></li>
+                    <li><a href="pants.html">Pants</a></li>
+                    <li><a href="hats.html">Hats</a></li>
+                </ul>
+            </div>
+            <div class="middle-section">
+                <img class="logo" src="Images/soft-wear.PNG">
+            </div>
+            <div class="right-section">
+                <ul>
+                    <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+<main id="shop" style="padding-top: 100px;">
+    <section id="hats">
+        <h2 class="clothing-heading">Hats</h2>
+        <div class= hats-section>
+            <div class="item">
+                <h3>Baseball Cap</h3>
+                <img class = "image" src="Images/baseball.webp">
+                <p>R950</p>
+                <button onclick="addToCart('Baseball Cap', 950)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Rockstar Cap</h3>
+                <img class = "image" src="Images/normal-cap.webp">
+                <p>R450</p>
+                <button onclick="addToCart('Rockstar Cap', 450)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Plain Black Cap</h3>
+                <img class = "image" src="Images/plain-black-cap.jpg">
+                <p>R350</p>
+                <button onclick="addToCart('Plain Black Cap', 350)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Bucket Hat</h3>
+                <img class = "image" src="Images/bucket-hat.webp">
+                <p>R300</p>
+                <button onclick="addToCart('Bucket Hat', 300)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3 class = "item-title">Nike Cap</h3>
+                <div class="image-container">
+                    <img class="image" src="Images/nike cap.jpg">
+                </div>
+                <p>R490.00</p>
+                <button onclick="addToCart('Nike Cap', 490)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Springboks bennie</h3>
+                <img class = "image" src = "Images/springbok.webp">
+                <p>R250.00</p>
+                <button onclick="addToCart('Springboks bennie', 250)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Nike Bennie</h3>
+                <img class = "image" src = "Images/nike beanie.jpg">
+                <p>R350.00</p>
+                <button onclick="addToCart('Nike Bennie', 350)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>North Face Bennie</h3>
+                <img class = "image" src = "Images/north face.webp">
+                <p>R400.00</p>
+                <button onclick="addToCart('North Face Bennie ', 400)">Add to Cart</button>
+            </div>
+        </div>
+      
+    </section>
+</main>      
+<footer>
+    <div class="bottom-section">
+        <nav>
+            <ul>
+                <li><a href="#FAQ">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#Store Policy">Store Policy</a></li>
+            </ul>
+        </nav>
+        <p>Soft Wear All rights reserved &#9415;</p>
+    </div>
+</footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>

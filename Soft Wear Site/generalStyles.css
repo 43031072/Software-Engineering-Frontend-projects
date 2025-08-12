@@ -1,0 +1,155 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    position: fixed;
+    height: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+    text-align: center;
+    align-items: center;
+}
+nav {
+    display: contents; 
+}
+
+.left-section ul,
+.right-section ul {
+    display: flex;
+    list-style: none;
+    padding-left: 150px;
+    margin: 0;
+    right:0;
+}
+
+.left-section li,
+.right-section li {
+    margin-right: 15px;
+}
+
+.left-section a,
+.right-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.left-section a:hover,
+.right-section a:hover {
+    color: #FFD700; 
+}
+.menu-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 150px;
+}
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-height: 100%; 
+    width:100px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+
+footer {
+    background: #333; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tshirt-heading {
+    align-items: center;
+    justify-content: center;
+}
+.pants-heading {
+    align-items: center;
+    justify-content: center;
+}
+.hats-heading {
+    align-items: center;
+    justify-content: center;
+}
+
+.clothing-heading {
+    text-align: center;
+}
+
+
+.bottom-section nav ul li a:hover {
+    color: #FFD700; /* Hover color matching header */
+}
+
+
+.view-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    animation: flash 1.5s infinite;
+}
+
+@keyframes flash {
+    0% { color: #FFD700; } 
+    50% { color: red; }
+    100% { color: #FFD700; }
+}
+
+.view-more:hover {
+    color: blue;
+}
+
+.view-more:active {
+    color: #333; 
+}
+

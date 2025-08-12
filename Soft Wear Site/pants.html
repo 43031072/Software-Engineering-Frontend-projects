@@ -1,0 +1,139 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Wear Pants</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="itemStyles.css">
+    <link rel="stylesheet" href="mediaStyles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-section">
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button> 
+                <ul class="nav-menu">
+                    <li><a href="site.html">Shop</a></li>
+                    <li><a href="t-shirts.html">T-Shirts</a></li>
+                    <li><a href="pants.html">Pants</a></li>
+                    <li><a href="hats.html">Hats</a></li>
+                </ul>
+            </div>
+            <div class="middle-section">
+                <img class="logo" src="Images/soft-wear.PNG">
+            </div>
+            <div class="right-section">
+                <ul>
+                    <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <main id="shop" style="padding-top: 100px;">
+    <section id="pants">
+        <h2 class= "clothing-heading">Pants</h2>
+        <div class="pants-section">
+            <div class="item">
+                <h3>Baggy Jeans</h3>
+                <img class = "image" src = "Images/jeans.png">
+                <p>R800.00</p>
+                <button onclick="addToCart('Baggy Jeans', 800)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Skinny Torn Jean</h3>
+                <img class = "image" src = "Images/slim jeans.webp">
+                <p>R500.00</p>
+                <button onclick="addToCart('Skinny Torn Jean', 500)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Military Cargo Pants</h3>
+                <img class = "image" src = "Images/cargo.jpg">
+                <p>R1200.00</p>
+                <button onclick="addToCart('Military Cargo Pants', 1200)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3 class = "item-title">Black Cargo</h3>
+                <div class="image-container">
+                    <img class="image" src="Images/black cargo.jpg" alt="Plain White T">
+                </div>
+                <p>R560.00</p>
+                <button onclick="addToCart('Black Cargo', 560)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Gray Joggers</h3>
+                <img class = "image" src = "Images/jogger.png">
+                <p>R300.00</p>
+                <button onclick="addToCart('Gray Joggers', 300)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3 class = "item-title">Nike Joggers</h3>
+                <div class="image-container">
+                    <img class="image" src="Images/nike bottom.webp" alt="Plain White T">
+                </div>
+                <p>R800.00</p>
+                <button onclick="addToCart('Nike Joggers', 800)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Nike Shorts</h3>
+                <img class = "image" src = "Images/nike shorts.jpg">
+                <p>R380</p>
+                <button onclick="addToCart('Nike shorts', 380)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Puma Jogger</h3>
+                <img class = "image" src = "Images/puma pants.jpg">
+                <p>R780.00</p>
+                <button onclick="addToCart('Puma Jogger', 780)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Adidas Jogger</h3>
+                <img class = "image" src = "Images/adidas pants.webp">
+                <p>R700.00</p>
+                <button onclick="addToCart('Adidas Jogger', 700)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Black Formal Trouser</h3>
+                <img class = "image" src = "Images/formal.avif">
+                <p>R450.00</p>
+                <button onclick="addToCart('Black Formal Trouser', 450)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Brentwoood Formal</h3>
+                <img class = "image" src = "Images/brentwood.webp">
+                <p>R480.00</p>
+                <button onclick="addToCart('Brentwoood Formal', 480)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h3>Maxhosa Pants</h3>
+                <img class = "image" src = "Images/maxhosa pants.jpg">
+                <p>R9700.00</p>
+                <button onclick="addToCart('Maxhosa Pants ', 9700)">Add to Cart</button>
+            </div>
+        </div>
+        
+    </section>
+</main>   
+<footer>
+    <div class="bottom-section">
+        <nav>
+            <ul>
+                <li><a href="#FAQ">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#Store Policy">Store Policy</a></li>
+            </ul>
+        </nav>
+        <p>Soft Wear All rights reserved &#9415;</p>
+    </div>
+</footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>

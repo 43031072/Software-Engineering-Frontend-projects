@@ -1,0 +1,47 @@
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.item button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.item button:hover {
+    background-color: #0a3513;
+}
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tshirt-section,
+.pants-section,
+.hats-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.image {
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
+}
+.image-container {
+    position: relative;
+}
+
+
+.item button {
+    position: relative;
+    z-index: 2; 
+}

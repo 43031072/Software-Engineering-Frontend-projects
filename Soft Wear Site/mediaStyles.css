@@ -1,0 +1,135 @@
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .middle-section {
+        justify-content: start;
+        padding-left: 10px;
+    }
+
+    .right-section ul {
+        padding-left: 10px;
+    }
+
+    .left-section ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .nav-menu.show-menu {
+        display: block;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu.show-menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .pants-section,
+    .hats-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .middle-section {
+        justify-content: start;
+        padding-left: 10px;
+    }
+
+    .right-section ul {
+        padding-left: 10px;
+    }
+
+    .left-section ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .nav-menu.show-menu {
+        display: block;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu.show-menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .tshirt-section,
+    .pants-section,
+    .hats-section {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .tshirt-section,
+    .pants-section,
+    .hats-section {
+        grid-template-columns: 1fr;
+    }
+
+    .image {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .tshirt-section,
+    .pants-section,
+    .hats-section {
+        grid-template-columns: 1fr; 
+        gap: 5px; 
+    }
+
+    .item {
+        margin-bottom: 5px; 
+    }
+
+    .image {
+        width: 100%; 
+        height: auto;
+    }
+
+    .item button {
+        width: 100%; 
+        padding: 10px;
+        font-size: 16px;
+    }
+}
